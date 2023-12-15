@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background: rgb(125,118,124);
+  background: linear-gradient(0deg, rgba(125,118,124,0.5396533613445378) 0%, rgba(29,95,157,0.5508578431372548) 66%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Open+Sans:wght@300&display=swap');
+.container{
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  top:0;
+  left:0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card{
+  display:flex;
+    font-family: 'Montserrat', sans-serif;
+
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(72, 8, 125);
+  color:white;
+  height: 200px;
+  box-shadow: 5cap;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContent{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+  margin:auto;
+  justify-content: center;
+  align-content: center;
+}
